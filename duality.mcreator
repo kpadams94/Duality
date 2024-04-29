@@ -1,0 +1,760 @@
+{
+  "mod_elements": [
+    {
+      "name": "AeroberIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/AeroberIngotItem.java",
+          "src/main/resources/assets/duality/models/item/aerober_ingot.json"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/blockstates/aerober_ore.json",
+          "src/main/resources/data/duality/loot_tables/blocks/aerober_ore.json",
+          "src/main/resources/assets/duality/models/item/aerober_ore.json",
+          "src/main/resources/assets/duality/models/block/aerober_ore.json",
+          "src/main/java/net/mcreator/duality/block/AeroberOreBlock.java"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/block/aerober_block.json",
+          "src/main/java/net/mcreator/duality/block/AeroberBlockBlock.java",
+          "src/main/resources/assets/duality/models/item/aerober_block.json",
+          "src/main/resources/data/duality/loot_tables/blocks/aerober_block.json",
+          "src/main/resources/assets/duality/blockstates/aerober_block.json"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_ore_smelting.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/aerober_pickaxe.json",
+          "src/main/java/net/mcreator/duality/item/AeroberPickaxeItem.java"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/aerober_axe.json",
+          "src/main/java/net/mcreator/duality/item/AeroberAxeItem.java"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/AeroberSwordItem.java",
+          "src/main/resources/assets/duality/models/item/aerober_sword.json"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/AeroberShovelItem.java",
+          "src/main/resources/assets/duality/models/item/aerober_shovel.json"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/aerober_hoe.json",
+          "src/main/java/net/mcreator/duality/item/AeroberHoeItem.java"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_axe_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_sword_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/aerober_armor_boots.json",
+          "src/main/resources/assets/duality/models/item/aerober_armor_chestplate.json",
+          "src/main/resources/assets/duality/models/item/aerober_armor_leggings.json",
+          "src/main/resources/assets/duality/models/item/aerober_armor_helmet.json",
+          "src/main/java/net/mcreator/duality/item/AeroberArmorItem.java"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/aerober_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "AeroberOreGeneration",
+      "type": "feature",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_ore_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/worldgen/configured_feature/aerober_ore_generation.json",
+          "src/main/resources/data/duality/worldgen/placed_feature/aerober_ore_generation.json",
+          "src/main/resources/data/duality/forge/biome_modifier/aerober_ore_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "RawAeroberOreSmelting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aerober_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/raw_aerober_ore_smelting.json"
+        ]
+      },
+      "path": "~/Aerober/Recipes"
+    },
+    {
+      "name": "RawAerober",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aerober",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/RawAeroberItem.java",
+          "src/main/resources/assets/duality/models/item/raw_aerober.json"
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "DenseIngot",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/dense_ingot.json",
+          "src/main/java/net/mcreator/duality/item/DenseIngotItem.java"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseOre",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/loot_tables/blocks/dense_ore.json",
+          "src/main/resources/assets/duality/blockstates/dense_ore.json",
+          "src/main/resources/assets/duality/models/block/dense_ore.json",
+          "src/main/java/net/mcreator/duality/block/DenseOreBlock.java",
+          "src/main/resources/data/duality/worldgen/placed_feature/dense_ore.json",
+          "src/main/resources/data/duality/worldgen/configured_feature/dense_ore.json",
+          "src/main/resources/assets/duality/models/item/dense_ore.json",
+          "src/main/resources/data/duality/forge/biome_modifier/dense_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/block/dense_block.json",
+          "src/main/java/net/mcreator/duality/block/DenseBlockBlock.java",
+          "src/main/resources/assets/duality/models/item/dense_block.json",
+          "src/main/resources/data/duality/loot_tables/blocks/dense_block.json",
+          "src/main/resources/assets/duality/blockstates/dense_block.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseOreSmelting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_ore_smelting.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DensePickaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/DensePickaxeItem.java",
+          "src/main/resources/assets/duality/models/item/dense_pickaxe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseAxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/dense_axe.json",
+          "src/main/java/net/mcreator/duality/item/DenseAxeItem.java"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/DenseSwordItem.java",
+          "src/main/resources/assets/duality/models/item/dense_sword.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/DenseShovelItem.java",
+          "src/main/resources/assets/duality/models/item/dense_shovel.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/DenseHoeItem.java",
+          "src/main/resources/assets/duality/models/item/dense_hoe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DensePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseAxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_axe_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseSwordRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_sword_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseShovelRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseHoeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/dense_armor_helmet.json",
+          "src/main/java/net/mcreator/duality/item/DenseArmorItem.java",
+          "src/main/resources/assets/duality/models/item/dense_armor_chestplate.json",
+          "src/main/resources/assets/duality/models/item/dense_armor_boots.json",
+          "src/main/resources/assets/duality/models/item/dense_armor_leggings.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Dense Rock"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:AeroberOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DenseBlock",
+      "~CUSTOM:DenseOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DenseBlock",
+      "~CUSTOM:DenseOre",
+      "~CUSTOM:AeroberBlock",
+      "~CUSTOM:AeroberOre"
+    ],
+    "BLOCKS:forge:needs_netherite_tool": [
+      "~CUSTOM:AeroberBlock"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.duality.dense_pickaxe": "Dense Pickaxe",
+      "item.duality.dense_armor_chestplate": "Dense Chestplate",
+      "item.duality.raw_aerober": "Raw Aerober",
+      "item.duality.dense_ingot": "Dense",
+      "item.duality.aerober_hoe": "Aerober Hoe",
+      "item.duality.aerober_armor_chestplate": "Aerober Chestplate",
+      "block.duality.dense_ore": "Dense Ore",
+      "block.duality.dense_block": "Block of Dense",
+      "block.duality.aerober_ore": "Aerober Ore",
+      "block.duality.aerober_block": "Block of Aerober",
+      "item.duality.aerober_armor_boots": "Aerober Boots",
+      "item.duality.aerober_sword": "Aerober Sword",
+      "item.duality.aerober_pickaxe": "Aerober Pickaxe",
+      "item.duality.dense_axe": "Dense Axe",
+      "item.duality.dense_sword": "Dense Sword",
+      "item.duality.dense_armor_leggings": "Dense Leggings",
+      "item.duality.aerober_armor_leggings": "Aerober Leggings",
+      "item.duality.dense_armor_helmet": "Dense Helmet",
+      "item.duality.aerober_armor_helmet": "Aerober Helmet",
+      "item.duality.aerober_shovel": "Aerober Shovel",
+      "item.duality.dense_hoe": "Dense Hoe",
+      "item.duality.aerober_axe": "Aerober Axe",
+      "item.duality.dense_shovel": "Dense Shovel",
+      "item.duality.aerober_ingot": "Aerober",
+      "item.duality.dense_armor_boots": "Dense Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Aerober",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dense Rock",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "duality",
+    "modName": "Duality",
+    "version": "1.0.0",
+    "author": "Kpada, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.duality"
+  },
+  "mcreatorVersion": 202400117319
+}

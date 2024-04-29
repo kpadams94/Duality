@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "duality:dense_block",
+    "duality:dense_ore",
+    "duality:aerober_block",
+    "duality:aerober_ore"
+  ]
+}

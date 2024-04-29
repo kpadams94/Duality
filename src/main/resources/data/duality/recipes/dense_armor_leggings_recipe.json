@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "duality:dense_ingot"
+    }
+  },
+  "result": {
+    "item": "duality:dense_armor_leggings",
+    "count": 1
+  }
+}

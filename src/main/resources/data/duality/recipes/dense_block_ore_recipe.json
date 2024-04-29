@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duality:dense_block"
+    }
+  ],
+  "result": {
+    "item": "duality:dense_ingot",
+    "count": 9
+  }
+}

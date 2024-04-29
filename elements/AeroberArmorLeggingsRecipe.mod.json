@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AeroberIngot"
+      },
+      {
+        "value": "CUSTOM:AeroberIngot"
+      },
+      {
+        "value": "CUSTOM:AeroberIngot"
+      },
+      {
+        "value": "CUSTOM:AeroberIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AeroberIngot"
+      },
+      {
+        "value": "CUSTOM:AeroberIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AeroberIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AeroberArmor.legs"
+    },
+    "name": "aerober_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}
