@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "duality:molten_bars_block",
     "duality:dense_block"
   ]
 }

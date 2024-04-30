@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "duality:void_ore"
+    }
+  },
+  "result": {
+    "item": "duality:void_ore_block",
+    "count": 1
+  }
+}
