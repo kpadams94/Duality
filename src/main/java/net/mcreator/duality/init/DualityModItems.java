@@ -13,6 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.duality.item.RawAeroberItem;
+import net.mcreator.duality.item.Molten_BarsSwordItem;
+import net.mcreator.duality.item.Molten_BarsShovelItem;
+import net.mcreator.duality.item.Molten_BarsPickaxeItem;
+import net.mcreator.duality.item.Molten_BarsIngotItem;
+import net.mcreator.duality.item.Molten_BarsHoeItem;
+import net.mcreator.duality.item.Molten_BarsAxeItem;
+import net.mcreator.duality.item.Molten_BarsArmorItem;
+import net.mcreator.duality.item.MoltenOreChunkItem;
 import net.mcreator.duality.item.DenseSwordItem;
 import net.mcreator.duality.item.DenseShovelItem;
 import net.mcreator.duality.item.DensePickaxeItem;
@@ -56,6 +64,19 @@ public class DualityModItems {
 	public static final RegistryObject<Item> DENSE_ARMOR_CHESTPLATE = REGISTRY.register("dense_armor_chestplate", () -> new DenseArmorItem.Chestplate());
 	public static final RegistryObject<Item> DENSE_ARMOR_LEGGINGS = REGISTRY.register("dense_armor_leggings", () -> new DenseArmorItem.Leggings());
 	public static final RegistryObject<Item> DENSE_ARMOR_BOOTS = REGISTRY.register("dense_armor_boots", () -> new DenseArmorItem.Boots());
+	public static final RegistryObject<Item> MOLTEN_BARS_INGOT = REGISTRY.register("molten_bars_ingot", () -> new Molten_BarsIngotItem());
+	public static final RegistryObject<Item> MOLTEN_BARS_ORE = block(DualityModBlocks.MOLTEN_BARS_ORE);
+	public static final RegistryObject<Item> MOLTEN_BARS_BLOCK = block(DualityModBlocks.MOLTEN_BARS_BLOCK);
+	public static final RegistryObject<Item> MOLTEN_BARS_PICKAXE = REGISTRY.register("molten_bars_pickaxe", () -> new Molten_BarsPickaxeItem());
+	public static final RegistryObject<Item> MOLTEN_BARS_AXE = REGISTRY.register("molten_bars_axe", () -> new Molten_BarsAxeItem());
+	public static final RegistryObject<Item> MOLTEN_BARS_SWORD = REGISTRY.register("molten_bars_sword", () -> new Molten_BarsSwordItem());
+	public static final RegistryObject<Item> MOLTEN_BARS_SHOVEL = REGISTRY.register("molten_bars_shovel", () -> new Molten_BarsShovelItem());
+	public static final RegistryObject<Item> MOLTEN_BARS_HOE = REGISTRY.register("molten_bars_hoe", () -> new Molten_BarsHoeItem());
+	public static final RegistryObject<Item> MOLTEN_BARS_ARMOR_HELMET = REGISTRY.register("molten_bars_armor_helmet", () -> new Molten_BarsArmorItem.Helmet());
+	public static final RegistryObject<Item> MOLTEN_BARS_ARMOR_CHESTPLATE = REGISTRY.register("molten_bars_armor_chestplate", () -> new Molten_BarsArmorItem.Chestplate());
+	public static final RegistryObject<Item> MOLTEN_BARS_ARMOR_LEGGINGS = REGISTRY.register("molten_bars_armor_leggings", () -> new Molten_BarsArmorItem.Leggings());
+	public static final RegistryObject<Item> MOLTEN_BARS_ARMOR_BOOTS = REGISTRY.register("molten_bars_armor_boots", () -> new Molten_BarsArmorItem.Boots());
+	public static final RegistryObject<Item> MOLTEN_ORE_CHUNK = REGISTRY.register("molten_ore_chunk", () -> new MoltenOreChunkItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

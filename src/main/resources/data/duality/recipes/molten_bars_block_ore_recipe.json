@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duality:molten_bars_block"
+    }
+  ],
+  "result": {
+    "item": "duality:molten_bars_ingot",
+    "count": 9
+  }
+}
