@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duality:void_ore_block"
+    }
+  ],
+  "result": {
+    "item": "duality:void_ore",
+    "count": 9
+  }
+}

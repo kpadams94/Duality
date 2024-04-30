@@ -732,7 +732,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_ore_block_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsBlockOreRecipe",
@@ -746,7 +746,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_block_ore_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsOreSmelting",
@@ -760,7 +760,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_ore_smelting.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsPickaxe",
@@ -849,7 +849,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsAxeRecipe",
@@ -863,7 +863,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_axe_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsSwordRecipe",
@@ -877,7 +877,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_sword_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsShovelRecipe",
@@ -891,7 +891,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_shovel_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsHoeRecipe",
@@ -905,7 +905,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_hoe_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsArmor",
@@ -923,7 +923,7 @@
           "src/main/resources/assets/duality/models/item/molten_bars_armor_helmet.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsArmorHelmetRecipe",
@@ -937,7 +937,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsArmorChestplateRecipe",
@@ -951,7 +951,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsArmorLeggingsRecipe",
@@ -965,7 +965,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "Molten_BarsArmorBootsRecipe",
@@ -979,7 +979,7 @@
           "src/main/resources/data/duality/recipes/molten_bars_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Molten"
+      "path": "~/Molten/Recipes"
     },
     {
       "name": "MoltenOreChunk",
@@ -995,12 +995,322 @@
         ]
       },
       "path": "~/Molten"
+    },
+    {
+      "name": "MoltenChunkSmelting",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_chunk_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/molten_chunk_smelting.json"
+        ]
+      },
+      "path": "~/Molten/Recipes"
+    },
+    {
+      "name": "VoidOre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/void_ore.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreItem.java"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/block/void_ore_ore.json",
+          "src/main/resources/data/duality/loot_tables/blocks/void_ore_ore.json",
+          "src/main/java/net/mcreator/duality/block/VoidOreOreBlock.java",
+          "src/main/resources/data/duality/worldgen/placed_feature/void_ore_ore.json",
+          "src/main/resources/data/duality/forge/biome_modifier/void_ore_ore_biome_modifier.json",
+          "src/main/resources/assets/duality/models/item/void_ore_ore.json",
+          "src/main/resources/data/duality/worldgen/configured_feature/void_ore_ore.json",
+          "src/main/resources/assets/duality/blockstates/void_ore_ore.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/loot_tables/blocks/void_ore_block.json",
+          "src/main/resources/assets/duality/models/item/void_ore_block.json",
+          "src/main/java/net/mcreator/duality/block/VoidOreBlockBlock.java",
+          "src/main/resources/assets/duality/models/block/void_ore_block.json",
+          "src/main/resources/assets/duality/blockstates/void_ore_block.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_ore_smelting.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOrePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/void_ore_pickaxe.json",
+          "src/main/java/net/mcreator/duality/item/VoidOrePickaxeItem.java"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/void_ore_axe.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreAxeItem.java"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/void_ore_sword.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreSwordItem.java"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/item/VoidOreShovelItem.java",
+          "src/main/resources/assets/duality/models/item/void_ore_shovel.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/void_ore_hoe.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreHoeItem.java"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOrePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_axe_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_sword_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/void_ore_armor_leggings.json",
+          "src/main/resources/assets/duality/models/item/void_ore_armor_helmet.json",
+          "src/main/resources/assets/duality/models/item/void_ore_armor_chestplate.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreArmorItem.java",
+          "src/main/resources/assets/duality/models/item/void_ore_armor_boots.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
+    },
+    {
+      "name": "VoidOreArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/void_ore_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Void Ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:VoidOreBlock",
+      "~CUSTOM:VoidOreOre",
       "~CUSTOM:DenseOre",
       "~CUSTOM:AeroberOre"
     ],
@@ -1009,6 +1319,8 @@
       "~CUSTOM:DenseBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:VoidOreBlock",
+      "~CUSTOM:VoidOreOre",
       "~CUSTOM:Molten_BarsBlock",
       "~CUSTOM:Molten_BarsOre",
       "~CUSTOM:DenseBlock",
@@ -1023,44 +1335,56 @@
   },
   "language_map": {
     "en_us": {
-      "item.duality.dense_pickaxe": "Dense Pickaxe",
-      "item.duality.dense_armor_chestplate": "Dense Chestplate",
-      "item.duality.raw_aerober": "Raw Aerober",
-      "item.duality.dense_ingot": "Dense",
+      "item.duality.void_ore_armor_boots": "VoidOre Boots",
       "item.duality.molten_bars_armor_chestplate": "Molten_Bars Chestplate",
-      "item.duality.molten_bars_sword": "Molten_Bars Sword",
-      "item.duality.aerober_hoe": "Aerober Hoe",
-      "item.duality.aerober_armor_chestplate": "Aerober Chestplate",
+      "item.duality.void_ore_axe": "VoidOre Axe",
       "item.duality.molten_bars_armor_leggings": "Molten_Bars Leggings",
       "block.duality.dense_ore": "Dense Ore",
       "block.duality.dense_block": "Block of Dense",
       "item.duality.molten_ore_chunk": "Molten Ore Chunk",
-      "block.duality.aerober_ore": "Aerober Ore",
       "item.duality.molten_bars_shovel": "Molten_Bars Shovel",
-      "item.duality.molten_bars_hoe": "Molten_Bars Hoe",
-      "item.duality.molten_bars_ingot": "Molten_Bars",
+      "block.duality.aerober_ore": "Aerober Ore",
+      "item.duality.void_ore": "VoidOre",
       "block.duality.molten_bars_ore": "Molten_Bars Ore",
-      "item.duality.molten_bars_pickaxe": "Molten_Bars Pickaxe",
+      "item.duality.molten_bars_ingot": "Molten_Bars",
+      "item.duality.void_ore_armor_chestplate": "VoidOre Chestplate",
+      "item.duality.void_ore_armor_leggings": "VoidOre Leggings",
       "item.duality.molten_bars_axe": "Molten_Bars Axe",
-      "block.duality.aerober_block": "Block of Aerober",
+      "item.duality.void_ore_sword": "VoidOre Sword",
       "item.duality.aerober_armor_boots": "Aerober Boots",
       "item.duality.aerober_sword": "Aerober Sword",
-      "item.duality.aerober_pickaxe": "Aerober Pickaxe",
-      "item.duality.dense_axe": "Dense Axe",
       "item.duality.dense_sword": "Dense Sword",
       "item.duality.dense_armor_leggings": "Dense Leggings",
       "block.duality.molten_bars_block": "Block of Molten_Bars",
       "item.duality.molten_bars_armor_helmet": "Molten_Bars Helmet",
-      "item.duality.aerober_armor_leggings": "Aerober Leggings",
-      "item.duality.dense_armor_helmet": "Dense Helmet",
-      "item.duality.aerober_armor_helmet": "Aerober Helmet",
       "item.duality.aerober_shovel": "Aerober Shovel",
       "item.duality.molten_bars_armor_boots": "Molten_Bars Boots",
       "item.duality.dense_hoe": "Dense Hoe",
+      "item.duality.dense_armor_boots": "Dense Boots",
+      "item.duality.void_ore_shovel": "VoidOre Shovel",
+      "item.duality.dense_armor_chestplate": "Dense Chestplate",
+      "item.duality.dense_pickaxe": "Dense Pickaxe",
+      "item.duality.raw_aerober": "Raw Aerober",
+      "item.duality.dense_ingot": "Dense",
+      "item.duality.molten_bars_sword": "Molten_Bars Sword",
+      "item.duality.aerober_hoe": "Aerober Hoe",
+      "item.duality.aerober_armor_chestplate": "Aerober Chestplate",
+      "item.duality.molten_bars_hoe": "Molten_Bars Hoe",
+      "block.duality.void_ore_ore": "VoidOre Ore",
+      "item.duality.void_ore_armor_helmet": "VoidOre Helmet",
+      "item.duality.void_ore_hoe": "VoidOre Hoe",
+      "item.duality.molten_bars_pickaxe": "Molten_Bars Pickaxe",
+      "item.duality.void_ore_pickaxe": "VoidOre Pickaxe",
+      "block.duality.aerober_block": "Block of Aerober",
+      "item.duality.aerober_pickaxe": "Aerober Pickaxe",
+      "item.duality.dense_axe": "Dense Axe",
+      "item.duality.aerober_armor_leggings": "Aerober Leggings",
+      "item.duality.dense_armor_helmet": "Dense Helmet",
+      "item.duality.aerober_armor_helmet": "Aerober Helmet",
+      "block.duality.void_ore_block": "Block of VoidOre",
       "item.duality.aerober_axe": "Aerober Axe",
       "item.duality.dense_shovel": "Dense Shovel",
-      "item.duality.aerober_ingot": "Aerober",
-      "item.duality.dense_armor_boots": "Dense Boots"
+      "item.duality.aerober_ingot": "Aerober"
     }
   },
   "foldersRoot": {
@@ -1081,6 +1405,15 @@
       },
       {
         "name": "Molten",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Void Ore",
         "children": []
       }
     ]
