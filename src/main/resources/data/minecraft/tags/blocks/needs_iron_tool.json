@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "duality:dense_block",
-    "duality:dense_ore"
+    "duality:dense_block"
   ]
 }

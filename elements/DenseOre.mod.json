@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "dense_ore",
+    "texture": "dense_bedrock_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -37,7 +37,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.6000000000000005,
+    "hardness": 25.0,
     "resistance": 5.785155024015763,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -46,7 +46,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:DenseIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -127,13 +127,13 @@
     ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "Blocks.BEDROCK"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 9,
     "frequencyOnChunk": 5,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 53
+    "minGenerateHeight": -63,
+    "maxGenerateHeight": -61
   }
 }

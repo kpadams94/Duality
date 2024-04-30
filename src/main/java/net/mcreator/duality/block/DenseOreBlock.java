@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class DenseOreBlock extends Block {
 	public DenseOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3.6f, 5.785155024f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(25f, 5.785155024f).requiresCorrectToolForDrops());
 	}
 
 	@Override

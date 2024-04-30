@@ -677,11 +677,11 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DenseOre",
       "~CUSTOM:AeroberOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:DenseBlock",
-      "~CUSTOM:DenseOre"
+      "~CUSTOM:DenseBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:DenseBlock",
