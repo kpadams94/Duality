@@ -1023,8 +1023,8 @@
   },
   "language_map": {
     "en_us": {
-      "item.duality.dense_pickaxe": "Dense Pickaxe",
       "item.duality.dense_armor_chestplate": "Dense Chestplate",
+      "item.duality.dense_pickaxe": "Dense Pickaxe",
       "item.duality.raw_aerober": "Raw Aerober",
       "item.duality.dense_ingot": "Dense",
       "item.duality.molten_bars_armor_chestplate": "Molten_Bars Chestplate",
