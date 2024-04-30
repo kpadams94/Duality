@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "duality:block/molten_bars_ore",
-    "particle": "duality:block/molten_bars_ore"
-  },
-  "render_type": "solid"
-}

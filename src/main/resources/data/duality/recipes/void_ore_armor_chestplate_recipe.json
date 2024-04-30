@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "duality:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "duality:void_ore_armor_chestplate",
+    "count": 1
+  }
+}

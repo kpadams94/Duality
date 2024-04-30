@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1.05,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "duality:deleted_mod_element"
+  },
+  "result": "duality:deleted_mod_element"
+}

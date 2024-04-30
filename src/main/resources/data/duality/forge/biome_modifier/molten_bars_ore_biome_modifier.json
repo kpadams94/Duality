@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_nether",
-  "features": "duality:molten_bars_ore",
-  "step": "underground_ores"
-}

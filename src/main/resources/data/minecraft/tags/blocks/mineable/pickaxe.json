@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "duality:molten_bars_block",
-    "duality:molten_bars_ore",
+    "duality:void_ore_block",
+    "duality:void_ore_ore",
     "duality:dense_block",
     "duality:dense_ore",
     "duality:aerober_block",

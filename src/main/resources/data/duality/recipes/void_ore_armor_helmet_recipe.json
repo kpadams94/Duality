@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "duality:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "duality:void_ore_armor_helmet",
+    "count": 1
+  }
+}
