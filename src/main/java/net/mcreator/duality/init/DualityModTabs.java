@@ -25,7 +25,6 @@ public class DualityModTabs {
 			tabData.accept(DualityModBlocks.AEROBER_BLOCK.get().asItem());
 			tabData.accept(DualityModBlocks.DENSE_ORE.get().asItem());
 			tabData.accept(DualityModBlocks.DENSE_BLOCK.get().asItem());
-			tabData.accept(DualityModBlocks.MOLTEN_BARS_BLOCK.get().asItem());
 			tabData.accept(DualityModBlocks.VOID_ORE_ORE.get().asItem());
 			tabData.accept(DualityModBlocks.VOID_ORE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -39,11 +38,6 @@ public class DualityModTabs {
 			tabData.accept(DualityModItems.DENSE_ARMOR_CHESTPLATE.get());
 			tabData.accept(DualityModItems.DENSE_ARMOR_LEGGINGS.get());
 			tabData.accept(DualityModItems.DENSE_ARMOR_BOOTS.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_SWORD.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_ARMOR_HELMET.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_ARMOR_CHESTPLATE.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_ARMOR_LEGGINGS.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_ARMOR_BOOTS.get());
 			tabData.accept(DualityModItems.VOID_ORE_SWORD.get());
 			tabData.accept(DualityModItems.VOID_ORE_ARMOR_HELMET.get());
 			tabData.accept(DualityModItems.VOID_ORE_ARMOR_CHESTPLATE.get());
@@ -53,12 +47,9 @@ public class DualityModTabs {
 			tabData.accept(DualityModItems.AEROBER_INGOT.get());
 			tabData.accept(DualityModItems.RAW_AEROBER.get());
 			tabData.accept(DualityModItems.DENSE_INGOT.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_INGOT.get());
-			tabData.accept(DualityModItems.MOLTEN_ORE_CHUNK.get());
 			tabData.accept(DualityModItems.VOID_ORE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DualityModBlocks.AEROBER_ORE.get().asItem());
-			tabData.accept(DualityModBlocks.MOLTEN_BARS_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DualityModItems.AEROBER_PICKAXE.get());
 			tabData.accept(DualityModItems.AEROBER_AXE.get());
@@ -68,10 +59,6 @@ public class DualityModTabs {
 			tabData.accept(DualityModItems.DENSE_AXE.get());
 			tabData.accept(DualityModItems.DENSE_SHOVEL.get());
 			tabData.accept(DualityModItems.DENSE_HOE.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_PICKAXE.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_AXE.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_SHOVEL.get());
-			tabData.accept(DualityModItems.MOLTEN_BARS_HOE.get());
 			tabData.accept(DualityModItems.VOID_ORE_PICKAXE.get());
 			tabData.accept(DualityModItems.VOID_ORE_AXE.get());
 			tabData.accept(DualityModItems.VOID_ORE_SHOVEL.get());
