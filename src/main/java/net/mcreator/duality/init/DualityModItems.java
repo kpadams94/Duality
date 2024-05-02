@@ -33,6 +33,7 @@ import net.mcreator.duality.item.DenseShovelItem;
 import net.mcreator.duality.item.DensePickaxeItem;
 import net.mcreator.duality.item.DenseIngotItem;
 import net.mcreator.duality.item.DenseHoeItem;
+import net.mcreator.duality.item.DenseChunkItem;
 import net.mcreator.duality.item.DenseAxeItem;
 import net.mcreator.duality.item.DenseArmorItem;
 import net.mcreator.duality.item.AeroberSwordItem;
@@ -96,6 +97,7 @@ public class DualityModItems {
 	public static final RegistryObject<Item> VOID_ORE_ARMOR_CHESTPLATE = REGISTRY.register("void_ore_armor_chestplate", () -> new VoidOreArmorItem.Chestplate());
 	public static final RegistryObject<Item> VOID_ORE_ARMOR_LEGGINGS = REGISTRY.register("void_ore_armor_leggings", () -> new VoidOreArmorItem.Leggings());
 	public static final RegistryObject<Item> VOID_ORE_ARMOR_BOOTS = REGISTRY.register("void_ore_armor_boots", () -> new VoidOreArmorItem.Boots());
+	public static final RegistryObject<Item> DENSE_CHUNK = REGISTRY.register("dense_chunk", () -> new DenseChunkItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -46,7 +46,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:DenseChunk"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -131,9 +131,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 9,
+    "frequencyPerChunks": 4,
     "frequencyOnChunk": 5,
     "minGenerateHeight": -63,
-    "maxGenerateHeight": -61
+    "maxGenerateHeight": -59
   }
 }

@@ -12,7 +12,7 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -37,12 +37,12 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 4.5,
-    "resistance": 6.915809336112958,
+    "hardness": 3.0,
+    "resistance": 8.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "DECORATIONS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "GRASS"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WET_GRASS"
     },
     "breakSound": {
       "value": ""
@@ -98,9 +98,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 2,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 5,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -119,17 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
-    ],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 7,
     "frequencyOnChunk": 4,

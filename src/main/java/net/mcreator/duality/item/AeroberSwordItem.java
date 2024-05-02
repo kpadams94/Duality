@@ -6,7 +6,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
 
+import net.mcreator.duality.procedures.AeroberSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.duality.init.DualityModItems;
 
 public class AeroberSwordItem extends SwordItem {
@@ -36,5 +38,12 @@ public class AeroberSwordItem extends SwordItem {
 				return Ingredient.of(new ItemStack(DualityModItems.AEROBER_INGOT.get()));
 			}
 		}, 3, -2f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		AeroberSwordLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 }

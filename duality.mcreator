@@ -319,7 +319,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "aerober_ore_generation",
-      "metadata": {},
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/worldgen/configured_feature/aerober_ore_generation.json",
+          "src/main/resources/data/duality/worldgen/placed_feature/aerober_ore_generation.json",
+          "src/main/resources/data/duality/forge/biome_modifier/aerober_ore_generation_biome_modifier.json"
+        ]
+      },
       "path": "~/Aerober"
     },
     {
@@ -417,7 +423,7 @@
           "src/main/resources/data/duality/recipes/dense_ore_block_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseBlockOreRecipe",
@@ -431,7 +437,7 @@
           "src/main/resources/data/duality/recipes/dense_block_ore_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseOreSmelting",
@@ -445,7 +451,7 @@
           "src/main/resources/data/duality/recipes/dense_ore_smelting.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DensePickaxe",
@@ -534,7 +540,7 @@
           "src/main/resources/data/duality/recipes/dense_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseAxeRecipe",
@@ -548,7 +554,7 @@
           "src/main/resources/data/duality/recipes/dense_axe_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseSwordRecipe",
@@ -562,7 +568,7 @@
           "src/main/resources/data/duality/recipes/dense_sword_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseShovelRecipe",
@@ -576,7 +582,7 @@
           "src/main/resources/data/duality/recipes/dense_shovel_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseHoeRecipe",
@@ -590,7 +596,7 @@
           "src/main/resources/data/duality/recipes/dense_hoe_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseArmor",
@@ -622,7 +628,7 @@
           "src/main/resources/data/duality/recipes/dense_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseArmorChestplateRecipe",
@@ -636,7 +642,7 @@
           "src/main/resources/data/duality/recipes/dense_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseArmorLeggingsRecipe",
@@ -650,7 +656,7 @@
           "src/main/resources/data/duality/recipes/dense_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "DenseArmorBootsRecipe",
@@ -664,7 +670,7 @@
           "src/main/resources/data/duality/recipes/dense_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Dense Rock"
+      "path": "~/Dense Rock/Recipes"
     },
     {
       "name": "Molten_BarsIngot",
@@ -1013,6 +1019,7 @@
     {
       "name": "VoidOre",
       "type": "item",
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore",
@@ -1022,11 +1029,12 @@
           "src/main/java/net/mcreator/duality/item/VoidOreItem.java"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreOre",
       "type": "block",
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_ore",
@@ -1035,18 +1043,16 @@
           "src/main/resources/assets/duality/models/block/void_ore_ore.json",
           "src/main/resources/data/duality/loot_tables/blocks/void_ore_ore.json",
           "src/main/java/net/mcreator/duality/block/VoidOreOreBlock.java",
-          "src/main/resources/data/duality/worldgen/placed_feature/void_ore_ore.json",
-          "src/main/resources/data/duality/forge/biome_modifier/void_ore_ore_biome_modifier.json",
           "src/main/resources/assets/duality/models/item/void_ore_ore.json",
-          "src/main/resources/data/duality/worldgen/configured_feature/void_ore_ore.json",
           "src/main/resources/assets/duality/blockstates/void_ore_ore.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreBlock",
       "type": "block",
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_block",
@@ -1059,11 +1065,12 @@
           "src/main/resources/assets/duality/blockstates/void_ore_block.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreOreBlockRecipe",
       "type": "recipe",
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_ore_block_recipe",
@@ -1072,11 +1079,12 @@
           "src/main/resources/data/duality/recipes/void_ore_ore_block_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreBlockOreRecipe",
       "type": "recipe",
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_block_ore_recipe",
@@ -1085,11 +1093,12 @@
           "src/main/resources/data/duality/recipes/void_ore_block_ore_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreOreSmelting",
       "type": "recipe",
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_ore_smelting",
@@ -1098,11 +1107,12 @@
           "src/main/resources/data/duality/recipes/void_ore_ore_smelting.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOrePickaxe",
       "type": "tool",
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_pickaxe",
@@ -1112,11 +1122,12 @@
           "src/main/java/net/mcreator/duality/item/VoidOrePickaxeItem.java"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreAxe",
       "type": "tool",
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_axe",
@@ -1126,11 +1137,12 @@
           "src/main/java/net/mcreator/duality/item/VoidOreAxeItem.java"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreSword",
       "type": "tool",
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_sword",
@@ -1140,11 +1152,12 @@
           "src/main/java/net/mcreator/duality/item/VoidOreSwordItem.java"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreShovel",
       "type": "tool",
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_shovel",
@@ -1154,11 +1167,12 @@
           "src/main/resources/assets/duality/models/item/void_ore_shovel.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreHoe",
       "type": "tool",
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_hoe",
@@ -1168,11 +1182,12 @@
           "src/main/java/net/mcreator/duality/item/VoidOreHoeItem.java"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOrePickaxeRecipe",
       "type": "recipe",
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_pickaxe_recipe",
@@ -1181,11 +1196,12 @@
           "src/main/resources/data/duality/recipes/void_ore_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreAxeRecipe",
       "type": "recipe",
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_axe_recipe",
@@ -1194,11 +1210,12 @@
           "src/main/resources/data/duality/recipes/void_ore_axe_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreSwordRecipe",
       "type": "recipe",
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_sword_recipe",
@@ -1207,11 +1224,12 @@
           "src/main/resources/data/duality/recipes/void_ore_sword_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreShovelRecipe",
       "type": "recipe",
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_shovel_recipe",
@@ -1220,11 +1238,12 @@
           "src/main/resources/data/duality/recipes/void_ore_shovel_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreHoeRecipe",
       "type": "recipe",
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_hoe_recipe",
@@ -1233,11 +1252,12 @@
           "src/main/resources/data/duality/recipes/void_ore_hoe_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreArmor",
       "type": "armor",
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_armor",
@@ -1250,11 +1270,12 @@
           "src/main/resources/assets/duality/models/item/void_ore_armor_boots.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore"
     },
     {
       "name": "VoidOreArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_armor_helmet_recipe",
@@ -1263,11 +1284,12 @@
           "src/main/resources/data/duality/recipes/void_ore_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_armor_chestplate_recipe",
@@ -1276,11 +1298,12 @@
           "src/main/resources/data/duality/recipes/void_ore_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_armor_leggings_recipe",
@@ -1289,11 +1312,12 @@
           "src/main/resources/data/duality/recipes/void_ore_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
     },
     {
       "name": "VoidOreArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_armor_boots_recipe",
@@ -1302,7 +1326,188 @@
           "src/main/resources/data/duality/recipes/void_ore_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Void Ore"
+      "path": "~/Void Fruit Ore/Recipes"
+    },
+    {
+      "name": "AeroberPickaxeToolInHandTick",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/procedures/AeroberPickaxeToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/procedures/AeroberArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "AeroberSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerober_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/procedures/AeroberSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Aerober"
+    },
+    {
+      "name": "DenseChunk",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/duality/models/item/dense_chunk.json",
+          "src/main/java/net/mcreator/duality/item/DenseChunkItem.java"
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseChunkSmelting",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_chunk_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/recipes/dense_chunk_smelting.json"
+        ]
+      },
+      "path": "~/Dense Rock/Recipes"
+    },
+    {
+      "name": "DenseArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/procedures/DenseArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DensePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/procedures/DensePickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dense Rock"
+    },
+    {
+      "name": "DenseShovelBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_shovel_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/procedures/DenseShovelBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dense Rock"
     }
   ],
   "variable_elements": [],
@@ -1310,7 +1515,6 @@
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:VoidOreBlock",
-      "~CUSTOM:VoidOreOre",
       "~CUSTOM:DenseOre",
       "~CUSTOM:AeroberOre"
     ],
@@ -1342,11 +1546,11 @@
       "block.duality.dense_ore": "Dense Ore",
       "block.duality.dense_block": "Block of Dense",
       "item.duality.molten_ore_chunk": "Molten Ore Chunk",
-      "item.duality.molten_bars_shovel": "Molten_Bars Shovel",
       "block.duality.aerober_ore": "Aerober Ore",
+      "item.duality.molten_bars_shovel": "Molten_Bars Shovel",
       "item.duality.void_ore": "VoidOre",
-      "block.duality.molten_bars_ore": "Molten_Bars Ore",
       "item.duality.molten_bars_ingot": "Molten_Bars",
+      "block.duality.molten_bars_ore": "Molten_Bars Ore",
       "item.duality.void_ore_armor_chestplate": "VoidOre Chestplate",
       "item.duality.void_ore_armor_leggings": "VoidOre Leggings",
       "item.duality.molten_bars_axe": "Molten_Bars Axe",
@@ -1359,6 +1563,7 @@
       "item.duality.molten_bars_armor_helmet": "Molten_Bars Helmet",
       "item.duality.aerober_shovel": "Aerober Shovel",
       "item.duality.molten_bars_armor_boots": "Molten_Bars Boots",
+      "item.duality.dense_chunk": "Dense Chunk",
       "item.duality.dense_hoe": "Dense Hoe",
       "item.duality.dense_armor_boots": "Dense Boots",
       "item.duality.void_ore_shovel": "VoidOre Shovel",
@@ -1401,7 +1606,12 @@
       },
       {
         "name": "Dense Rock",
-        "children": []
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Molten",
@@ -1413,8 +1623,13 @@
         ]
       },
       {
-        "name": "Void Ore",
-        "children": []
+        "name": "Void Fruit Ore",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       }
     ]
   },

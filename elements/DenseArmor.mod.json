@@ -10,6 +10,9 @@
     "textureLeggings": "dense_leggings",
     "enableBoots": true,
     "textureBoots": "dense_boots",
+    "onHelmetTick": {
+      "name": "AeroberArmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -70,13 +73,13 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 18,
-    "damageValueHelmet": 2,
-    "damageValueBody": 7,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
+    "maxDamage": 35,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
     "enchantability": 11,
-    "toughness": 0.0,
+    "toughness": 2.5,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""

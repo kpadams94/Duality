@@ -26,7 +26,6 @@ public class DualityModTabs {
 			tabData.accept(DualityModBlocks.DENSE_ORE.get().asItem());
 			tabData.accept(DualityModBlocks.DENSE_BLOCK.get().asItem());
 			tabData.accept(DualityModBlocks.MOLTEN_BARS_BLOCK.get().asItem());
-			tabData.accept(DualityModBlocks.VOID_ORE_ORE.get().asItem());
 			tabData.accept(DualityModBlocks.VOID_ORE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(DualityModItems.AEROBER_SWORD.get());
@@ -56,9 +55,11 @@ public class DualityModTabs {
 			tabData.accept(DualityModItems.MOLTEN_BARS_INGOT.get());
 			tabData.accept(DualityModItems.MOLTEN_ORE_CHUNK.get());
 			tabData.accept(DualityModItems.VOID_ORE.get());
+			tabData.accept(DualityModItems.DENSE_CHUNK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DualityModBlocks.AEROBER_ORE.get().asItem());
 			tabData.accept(DualityModBlocks.MOLTEN_BARS_ORE.get().asItem());
+			tabData.accept(DualityModBlocks.VOID_ORE_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DualityModItems.AEROBER_PICKAXE.get());
 			tabData.accept(DualityModItems.AEROBER_AXE.get());

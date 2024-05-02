@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 
 public class AeroberOreBlock extends Block {
 	public AeroberOreBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.NONE).sound(SoundType.SNOW).strength(3f, 3.706f).lightLevel(s -> 2).requiresCorrectToolForDrops().noCollission().speedFactor(0.4f).jumpFactor(0.5f).noOcclusion()
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.NONE).sound(SoundType.SNOW).strength(3f, 3.706f).lightLevel(s -> 4).requiresCorrectToolForDrops().noCollission().speedFactor(0.2f).jumpFactor(0.5f).noOcclusion()
 				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
 	}
 

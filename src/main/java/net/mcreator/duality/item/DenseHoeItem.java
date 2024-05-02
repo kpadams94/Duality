@@ -13,11 +13,11 @@ public class DenseHoeItem extends HoeItem {
 	public DenseHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 323;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -25,7 +25,7 @@ public class DenseHoeItem extends HoeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
@@ -35,6 +35,6 @@ public class DenseHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(DualityModItems.DENSE_INGOT.get()));
 			}
-		}, 0, 0f, new Item.Properties());
+		}, 0, -2.4f, new Item.Properties());
 	}
 }
