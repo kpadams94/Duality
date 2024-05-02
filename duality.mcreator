@@ -1508,6 +1508,24 @@
         ]
       },
       "path": "~/Dense Rock"
+    },
+    {
+      "name": "TestBlock1",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/duality/block/TestBlock1Block.java",
+          "src/main/resources/assets/duality/models/item/test_block_1.json",
+          "src/main/resources/assets/duality/blockstates/test_block_1.json",
+          "src/main/resources/assets/duality/models/block/test_block_1.json",
+          "src/main/resources/data/duality/loot_tables/blocks/test_block_1.json"
+        ]
+      },
+      "path": "~/Void Fruit Ore"
     }
   ],
   "variable_elements": [],
@@ -1564,6 +1582,7 @@
       "item.duality.aerober_shovel": "Aerober Shovel",
       "item.duality.molten_bars_armor_boots": "Molten_Bars Boots",
       "item.duality.dense_chunk": "Dense Chunk",
+      "block.duality.test_block_1": "Test Block 1",
       "item.duality.dense_hoe": "Dense Hoe",
       "item.duality.dense_armor_boots": "Dense Boots",
       "item.duality.void_ore_shovel": "VoidOre Shovel",
