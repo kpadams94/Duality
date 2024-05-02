@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "duality:deleted_mod_element"
+      "item": "duality:molten_bars_ingot"
     }
   },
   "result": {
-    "item": "duality:deleted_mod_element",
+    "item": "duality:molten_bars_block",
     "count": 1
   }
 }

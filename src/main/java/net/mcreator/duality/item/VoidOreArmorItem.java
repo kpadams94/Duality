@@ -1,11 +1,19 @@
 
 package net.mcreator.duality.item;
 
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundEvent;
+
+import net.mcreator.duality.init.DualityModItems;
 
 public abstract class VoidOreArmorItem extends ArmorItem {
-
 	public VoidOreArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -30,7 +38,7 @@ public abstract class VoidOreArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DualityModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(DualityModItems.VOID_ORE.get()));
 			}
 
 			@Override
@@ -51,7 +59,6 @@ public abstract class VoidOreArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends VoidOreArmorItem {
-
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -60,11 +67,9 @@ public abstract class VoidOreArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "duality:textures/models/armor/voidore_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends VoidOreArmorItem {
-
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -73,11 +78,9 @@ public abstract class VoidOreArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "duality:textures/models/armor/voidore_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends VoidOreArmorItem {
-
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -86,11 +89,9 @@ public abstract class VoidOreArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "duality:textures/models/armor/voidore_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends VoidOreArmorItem {
-
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -99,7 +100,5 @@ public abstract class VoidOreArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "duality:textures/models/armor/voidore_layer_1.png";
 		}
-
 	}
-
 }

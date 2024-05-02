@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "duality:deleted_mod_element"
+      "item": "duality:molten_bars_ingot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "duality:deleted_mod_element",
+    "item": "duality:molten_bars_pickaxe",
     "count": 1
   }
 }

@@ -1,7 +1,13 @@
 
 package net.mcreator.duality.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
+
+import net.mcreator.duality.init.DualityModItems;
 
 public class Molten_BarsHoeItem extends HoeItem {
 	public Molten_BarsHoeItem() {
@@ -27,7 +33,7 @@ public class Molten_BarsHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DualityModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(DualityModItems.MOLTEN_BARS_INGOT.get()));
 			}
 		}, 0, 0f, new Item.Properties());
 	}

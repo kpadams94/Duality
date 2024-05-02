@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "duality:block/test_block_1",
-    "particle": "duality:block/test_block_1"
-  },
-  "render_type": "solid"
-}
