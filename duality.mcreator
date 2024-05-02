@@ -9,8 +9,8 @@
       "registry_name": "aerober_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/aerober_ingot.json",
-          "src/main/java/net/mcreator/duality/item/AeroberIngotItem.java"
+          "src/main/java/net/mcreator/duality/item/AeroberIngotItem.java",
+          "src/main/resources/assets/duality/models/item/aerober_ingot.json"
         ]
       },
       "path": "~/Aerober"
@@ -24,11 +24,11 @@
       "registry_name": "aerober_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/aerober_ore.json",
+          "src/main/resources/assets/duality/blockstates/aerober_ore.json",
           "src/main/resources/data/duality/loot_tables/blocks/aerober_ore.json",
-          "src/main/java/net/mcreator/duality/block/AeroberOreBlock.java",
+          "src/main/resources/assets/duality/models/item/aerober_ore.json",
           "src/main/resources/assets/duality/models/block/aerober_ore.json",
-          "src/main/resources/assets/duality/blockstates/aerober_ore.json"
+          "src/main/java/net/mcreator/duality/block/AeroberOreBlock.java"
         ]
       },
       "path": "~/Aerober"
@@ -42,11 +42,11 @@
       "registry_name": "aerober_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/blockstates/aerober_block.json",
-          "src/main/java/net/mcreator/duality/block/AeroberBlockBlock.java",
           "src/main/resources/assets/duality/models/block/aerober_block.json",
+          "src/main/java/net/mcreator/duality/block/AeroberBlockBlock.java",
+          "src/main/resources/assets/duality/models/item/aerober_block.json",
           "src/main/resources/data/duality/loot_tables/blocks/aerober_block.json",
-          "src/main/resources/assets/duality/models/item/aerober_block.json"
+          "src/main/resources/assets/duality/blockstates/aerober_block.json"
         ]
       },
       "path": "~/Aerober"
@@ -102,8 +102,8 @@
       "registry_name": "aerober_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/AeroberPickaxeItem.java",
-          "src/main/resources/assets/duality/models/item/aerober_pickaxe.json"
+          "src/main/resources/assets/duality/models/item/aerober_pickaxe.json",
+          "src/main/java/net/mcreator/duality/item/AeroberPickaxeItem.java"
         ]
       },
       "path": "~/Aerober"
@@ -147,8 +147,8 @@
       "registry_name": "aerober_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/aerober_shovel.json",
-          "src/main/java/net/mcreator/duality/item/AeroberShovelItem.java"
+          "src/main/java/net/mcreator/duality/item/AeroberShovelItem.java",
+          "src/main/resources/assets/duality/models/item/aerober_shovel.json"
         ]
       },
       "path": "~/Aerober"
@@ -247,11 +247,11 @@
       "registry_name": "aerober_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/aerober_armor_leggings.json",
-          "src/main/resources/assets/duality/models/item/aerober_armor_chestplate.json",
-          "src/main/java/net/mcreator/duality/item/AeroberArmorItem.java",
           "src/main/resources/assets/duality/models/item/aerober_armor_boots.json",
-          "src/main/resources/assets/duality/models/item/aerober_armor_helmet.json"
+          "src/main/resources/assets/duality/models/item/aerober_armor_chestplate.json",
+          "src/main/resources/assets/duality/models/item/aerober_armor_leggings.json",
+          "src/main/resources/assets/duality/models/item/aerober_armor_helmet.json",
+          "src/main/java/net/mcreator/duality/item/AeroberArmorItem.java"
         ]
       },
       "path": "~/Aerober"
@@ -351,8 +351,8 @@
       "registry_name": "raw_aerober",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/raw_aerober.json",
-          "src/main/java/net/mcreator/duality/item/RawAeroberItem.java"
+          "src/main/java/net/mcreator/duality/item/RawAeroberItem.java",
+          "src/main/resources/assets/duality/models/item/raw_aerober.json"
         ]
       },
       "path": "~/Aerober"
@@ -366,8 +366,8 @@
       "registry_name": "dense_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/DenseIngotItem.java",
-          "src/main/resources/assets/duality/models/item/dense_ingot.json"
+          "src/main/resources/assets/duality/models/item/dense_ingot.json",
+          "src/main/java/net/mcreator/duality/item/DenseIngotItem.java"
         ]
       },
       "path": "~/Dense Rock"
@@ -381,14 +381,14 @@
       "registry_name": "dense_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/blockstates/dense_ore.json",
           "src/main/resources/data/duality/loot_tables/blocks/dense_ore.json",
-          "src/main/resources/data/duality/forge/biome_modifier/dense_ore_biome_modifier.json",
-          "src/main/resources/assets/duality/models/item/dense_ore.json",
-          "src/main/resources/data/duality/worldgen/configured_feature/dense_ore.json",
+          "src/main/resources/assets/duality/blockstates/dense_ore.json",
           "src/main/resources/assets/duality/models/block/dense_ore.json",
           "src/main/java/net/mcreator/duality/block/DenseOreBlock.java",
-          "src/main/resources/data/duality/worldgen/placed_feature/dense_ore.json"
+          "src/main/resources/data/duality/worldgen/placed_feature/dense_ore.json",
+          "src/main/resources/data/duality/worldgen/configured_feature/dense_ore.json",
+          "src/main/resources/assets/duality/models/item/dense_ore.json",
+          "src/main/resources/data/duality/forge/biome_modifier/dense_ore_biome_modifier.json"
         ]
       },
       "path": "~/Dense Rock"
@@ -402,11 +402,11 @@
       "registry_name": "dense_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/duality/models/block/dense_block.json",
           "src/main/java/net/mcreator/duality/block/DenseBlockBlock.java",
           "src/main/resources/assets/duality/models/item/dense_block.json",
-          "src/main/resources/assets/duality/blockstates/dense_block.json",
-          "src/main/resources/assets/duality/models/block/dense_block.json",
-          "src/main/resources/data/duality/loot_tables/blocks/dense_block.json"
+          "src/main/resources/data/duality/loot_tables/blocks/dense_block.json",
+          "src/main/resources/assets/duality/blockstates/dense_block.json"
         ]
       },
       "path": "~/Dense Rock"
@@ -462,8 +462,8 @@
       "registry_name": "dense_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/dense_pickaxe.json",
-          "src/main/java/net/mcreator/duality/item/DensePickaxeItem.java"
+          "src/main/java/net/mcreator/duality/item/DensePickaxeItem.java",
+          "src/main/resources/assets/duality/models/item/dense_pickaxe.json"
         ]
       },
       "path": "~/Dense Rock"
@@ -477,8 +477,8 @@
       "registry_name": "dense_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/DenseAxeItem.java",
-          "src/main/resources/assets/duality/models/item/dense_axe.json"
+          "src/main/resources/assets/duality/models/item/dense_axe.json",
+          "src/main/java/net/mcreator/duality/item/DenseAxeItem.java"
         ]
       },
       "path": "~/Dense Rock"
@@ -507,8 +507,8 @@
       "registry_name": "dense_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/dense_shovel.json",
-          "src/main/java/net/mcreator/duality/item/DenseShovelItem.java"
+          "src/main/java/net/mcreator/duality/item/DenseShovelItem.java",
+          "src/main/resources/assets/duality/models/item/dense_shovel.json"
         ]
       },
       "path": "~/Dense Rock"
@@ -607,11 +607,11 @@
       "registry_name": "dense_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/dense_armor_leggings.json",
-          "src/main/resources/assets/duality/models/item/dense_armor_boots.json",
-          "src/main/resources/assets/duality/models/item/dense_armor_chestplate.json",
+          "src/main/resources/assets/duality/models/item/dense_armor_helmet.json",
           "src/main/java/net/mcreator/duality/item/DenseArmorItem.java",
-          "src/main/resources/assets/duality/models/item/dense_armor_helmet.json"
+          "src/main/resources/assets/duality/models/item/dense_armor_chestplate.json",
+          "src/main/resources/assets/duality/models/item/dense_armor_boots.json",
+          "src/main/resources/assets/duality/models/item/dense_armor_leggings.json"
         ]
       },
       "path": "~/Dense Rock"
@@ -681,8 +681,8 @@
       "registry_name": "molten_bars_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/Molten_BarsIngotItem.java",
-          "src/main/resources/assets/duality/models/item/molten_bars_ingot.json"
+          "src/main/resources/assets/duality/models/item/molten_bars_ingot.json",
+          "src/main/java/net/mcreator/duality/item/Molten_BarsIngotItem.java"
         ]
       },
       "path": "~/Molten"
@@ -696,13 +696,13 @@
       "registry_name": "molten_bars_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/duality/forge/biome_modifier/molten_bars_ore_biome_modifier.json",
-          "src/main/resources/assets/duality/models/item/molten_bars_ore.json",
           "src/main/java/net/mcreator/duality/block/Molten_BarsOreBlock.java",
-          "src/main/resources/assets/duality/models/block/molten_bars_ore.json",
           "src/main/resources/data/duality/loot_tables/blocks/molten_bars_ore.json",
           "src/main/resources/data/duality/worldgen/configured_feature/molten_bars_ore.json",
           "src/main/resources/data/duality/worldgen/placed_feature/molten_bars_ore.json",
+          "src/main/resources/assets/duality/models/block/molten_bars_ore.json",
+          "src/main/resources/data/duality/forge/biome_modifier/molten_bars_ore_biome_modifier.json",
+          "src/main/resources/assets/duality/models/item/molten_bars_ore.json",
           "src/main/resources/assets/duality/blockstates/molten_bars_ore.json"
         ]
       },
@@ -718,9 +718,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/duality/block/Molten_BarsBlockBlock.java",
+          "src/main/resources/data/duality/loot_tables/blocks/molten_bars_block.json",
           "src/main/resources/assets/duality/blockstates/molten_bars_block.json",
           "src/main/resources/assets/duality/models/block/molten_bars_block.json",
-          "src/main/resources/data/duality/loot_tables/blocks/molten_bars_block.json",
           "src/main/resources/assets/duality/models/item/molten_bars_block.json"
         ]
       },
@@ -807,8 +807,8 @@
       "registry_name": "molten_bars_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/Molten_BarsSwordItem.java",
-          "src/main/resources/assets/duality/models/item/molten_bars_sword.json"
+          "src/main/resources/assets/duality/models/item/molten_bars_sword.json",
+          "src/main/java/net/mcreator/duality/item/Molten_BarsSwordItem.java"
         ]
       },
       "path": "~/Molten"
@@ -822,8 +822,8 @@
       "registry_name": "molten_bars_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/Molten_BarsShovelItem.java",
-          "src/main/resources/assets/duality/models/item/molten_bars_shovel.json"
+          "src/main/resources/assets/duality/models/item/molten_bars_shovel.json",
+          "src/main/java/net/mcreator/duality/item/Molten_BarsShovelItem.java"
         ]
       },
       "path": "~/Molten"
@@ -922,11 +922,11 @@
       "registry_name": "molten_bars_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/duality/models/item/molten_bars_armor_boots.json",
+          "src/main/java/net/mcreator/duality/item/Molten_BarsArmorItem.java",
           "src/main/resources/assets/duality/models/item/molten_bars_armor_leggings.json",
           "src/main/resources/assets/duality/models/item/molten_bars_armor_chestplate.json",
-          "src/main/resources/assets/duality/models/item/molten_bars_armor_helmet.json",
-          "src/main/java/net/mcreator/duality/item/Molten_BarsArmorItem.java",
-          "src/main/resources/assets/duality/models/item/molten_bars_armor_boots.json"
+          "src/main/resources/assets/duality/models/item/molten_bars_armor_helmet.json"
         ]
       },
       "path": "~/Molten/Recipes"
@@ -996,8 +996,8 @@
       "registry_name": "molten_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/molten_ore_chunk.json",
-          "src/main/java/net/mcreator/duality/item/MoltenOreChunkItem.java"
+          "src/main/java/net/mcreator/duality/item/MoltenOreChunkItem.java",
+          "src/main/resources/assets/duality/models/item/molten_ore_chunk.json"
         ]
       },
       "path": "~/Molten"
@@ -1025,8 +1025,8 @@
       "registry_name": "void_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/VoidOreItem.java",
-          "src/main/resources/assets/duality/models/item/void_ore.json"
+          "src/main/resources/assets/duality/models/item/void_ore.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreItem.java"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1040,11 +1040,11 @@
       "registry_name": "void_ore_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/blockstates/void_ore_ore.json",
           "src/main/resources/assets/duality/models/block/void_ore_ore.json",
-          "src/main/resources/assets/duality/models/item/void_ore_ore.json",
+          "src/main/resources/data/duality/loot_tables/blocks/void_ore_ore.json",
           "src/main/java/net/mcreator/duality/block/VoidOreOreBlock.java",
-          "src/main/resources/data/duality/loot_tables/blocks/void_ore_ore.json"
+          "src/main/resources/assets/duality/models/item/void_ore_ore.json",
+          "src/main/resources/assets/duality/blockstates/void_ore_ore.json"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1058,11 +1058,11 @@
       "registry_name": "void_ore_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/block/void_ore_block.json",
-          "src/main/java/net/mcreator/duality/block/VoidOreBlockBlock.java",
+          "src/main/resources/data/duality/loot_tables/blocks/void_ore_block.json",
           "src/main/resources/assets/duality/models/item/void_ore_block.json",
-          "src/main/resources/assets/duality/blockstates/void_ore_block.json",
-          "src/main/resources/data/duality/loot_tables/blocks/void_ore_block.json"
+          "src/main/java/net/mcreator/duality/block/VoidOreBlockBlock.java",
+          "src/main/resources/assets/duality/models/block/void_ore_block.json",
+          "src/main/resources/assets/duality/blockstates/void_ore_block.json"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1118,8 +1118,8 @@
       "registry_name": "void_ore_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/VoidOrePickaxeItem.java",
-          "src/main/resources/assets/duality/models/item/void_ore_pickaxe.json"
+          "src/main/resources/assets/duality/models/item/void_ore_pickaxe.json",
+          "src/main/java/net/mcreator/duality/item/VoidOrePickaxeItem.java"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1133,8 +1133,8 @@
       "registry_name": "void_ore_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/VoidOreAxeItem.java",
-          "src/main/resources/assets/duality/models/item/void_ore_axe.json"
+          "src/main/resources/assets/duality/models/item/void_ore_axe.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreAxeItem.java"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1148,8 +1148,8 @@
       "registry_name": "void_ore_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/VoidOreSwordItem.java",
-          "src/main/resources/assets/duality/models/item/void_ore_sword.json"
+          "src/main/resources/assets/duality/models/item/void_ore_sword.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreSwordItem.java"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1163,8 +1163,8 @@
       "registry_name": "void_ore_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/void_ore_shovel.json",
-          "src/main/java/net/mcreator/duality/item/VoidOreShovelItem.java"
+          "src/main/java/net/mcreator/duality/item/VoidOreShovelItem.java",
+          "src/main/resources/assets/duality/models/item/void_ore_shovel.json"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1178,8 +1178,8 @@
       "registry_name": "void_ore_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/VoidOreHoeItem.java",
-          "src/main/resources/assets/duality/models/item/void_ore_hoe.json"
+          "src/main/resources/assets/duality/models/item/void_ore_hoe.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreHoeItem.java"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1263,11 +1263,11 @@
       "registry_name": "void_ore_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/duality/models/item/void_ore_armor_helmet.json",
-          "src/main/java/net/mcreator/duality/item/VoidOreArmorItem.java",
-          "src/main/resources/assets/duality/models/item/void_ore_armor_boots.json",
           "src/main/resources/assets/duality/models/item/void_ore_armor_leggings.json",
-          "src/main/resources/assets/duality/models/item/void_ore_armor_chestplate.json"
+          "src/main/resources/assets/duality/models/item/void_ore_armor_helmet.json",
+          "src/main/resources/assets/duality/models/item/void_ore_armor_chestplate.json",
+          "src/main/java/net/mcreator/duality/item/VoidOreArmorItem.java",
+          "src/main/resources/assets/duality/models/item/void_ore_armor_boots.json"
         ]
       },
       "path": "~/Void Fruit Ore"
@@ -1397,8 +1397,8 @@
       "registry_name": "dense_chunk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/duality/item/DenseChunkItem.java",
-          "src/main/resources/assets/duality/models/item/dense_chunk.json"
+          "src/main/resources/assets/duality/models/item/dense_chunk.json",
+          "src/main/java/net/mcreator/duality/item/DenseChunkItem.java"
         ]
       },
       "path": "~/Dense Rock"
