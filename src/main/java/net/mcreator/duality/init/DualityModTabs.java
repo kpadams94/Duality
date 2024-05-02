@@ -27,6 +27,7 @@ public class DualityModTabs {
 			tabData.accept(DualityModBlocks.DENSE_BLOCK.get().asItem());
 			tabData.accept(DualityModBlocks.MOLTEN_BARS_BLOCK.get().asItem());
 			tabData.accept(DualityModBlocks.VOID_ORE_BLOCK.get().asItem());
+			tabData.accept(DualityModBlocks.TEST.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(DualityModItems.AEROBER_SWORD.get());
 			tabData.accept(DualityModItems.AEROBER_ARMOR_HELMET.get());
