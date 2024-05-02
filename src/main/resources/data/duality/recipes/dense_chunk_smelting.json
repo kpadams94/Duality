@@ -4,7 +4,7 @@
   "experience": 0.84,
   "cookingtime": 200,
   "ingredient": {
-    "item": "duality:deleted_mod_element"
+    "item": "duality:dense_chunk"
   },
   "result": "duality:dense_ingot"
 }

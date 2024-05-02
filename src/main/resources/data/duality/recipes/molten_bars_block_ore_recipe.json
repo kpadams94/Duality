@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "duality:deleted_mod_element"
+      "item": "duality:molten_bars_block"
     }
   ],
   "result": {
-    "item": "duality:deleted_mod_element",
+    "item": "duality:molten_bars_ingot",
     "count": 9
   }
 }

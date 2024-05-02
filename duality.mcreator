@@ -676,7 +676,7 @@
       "name": "Molten_BarsIngot",
       "type": "item",
       "sortid": 46,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_ingot",
       "metadata": {
@@ -691,7 +691,7 @@
       "name": "Molten_BarsOre",
       "type": "block",
       "sortid": 47,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_ore",
       "metadata": {
@@ -712,7 +712,7 @@
       "name": "Molten_BarsBlock",
       "type": "block",
       "sortid": 48,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_block",
       "metadata": {
@@ -772,7 +772,7 @@
       "name": "Molten_BarsPickaxe",
       "type": "tool",
       "sortid": 52,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_pickaxe",
       "metadata": {
@@ -787,7 +787,7 @@
       "name": "Molten_BarsAxe",
       "type": "tool",
       "sortid": 53,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_axe",
       "metadata": {
@@ -802,7 +802,7 @@
       "name": "Molten_BarsSword",
       "type": "tool",
       "sortid": 54,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_sword",
       "metadata": {
@@ -817,7 +817,7 @@
       "name": "Molten_BarsShovel",
       "type": "tool",
       "sortid": 55,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_shovel",
       "metadata": {
@@ -832,7 +832,7 @@
       "name": "Molten_BarsHoe",
       "type": "tool",
       "sortid": 56,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_hoe",
       "metadata": {
@@ -917,7 +917,7 @@
       "name": "Molten_BarsArmor",
       "type": "armor",
       "sortid": 62,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_bars_armor",
       "metadata": {
@@ -991,7 +991,7 @@
       "name": "MoltenOreChunk",
       "type": "item",
       "sortid": 67,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "molten_ore_chunk",
       "metadata": {
@@ -1020,7 +1020,7 @@
       "name": "VoidOre",
       "type": "item",
       "sortid": 69,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore",
       "metadata": {
@@ -1035,7 +1035,7 @@
       "name": "VoidOreOre",
       "type": "block",
       "sortid": 70,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_ore",
       "metadata": {
@@ -1053,7 +1053,7 @@
       "name": "VoidOreBlock",
       "type": "block",
       "sortid": 71,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_block",
       "metadata": {
@@ -1113,7 +1113,7 @@
       "name": "VoidOrePickaxe",
       "type": "tool",
       "sortid": 75,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_pickaxe",
       "metadata": {
@@ -1128,7 +1128,7 @@
       "name": "VoidOreAxe",
       "type": "tool",
       "sortid": 76,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_axe",
       "metadata": {
@@ -1143,7 +1143,7 @@
       "name": "VoidOreSword",
       "type": "tool",
       "sortid": 77,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_sword",
       "metadata": {
@@ -1158,7 +1158,7 @@
       "name": "VoidOreShovel",
       "type": "tool",
       "sortid": 78,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_shovel",
       "metadata": {
@@ -1173,7 +1173,7 @@
       "name": "VoidOreHoe",
       "type": "tool",
       "sortid": 79,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_hoe",
       "metadata": {
@@ -1258,7 +1258,7 @@
       "name": "VoidOreArmor",
       "type": "armor",
       "sortid": 85,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "void_ore_armor",
       "metadata": {
@@ -1332,7 +1332,7 @@
       "name": "AeroberPickaxeToolInHandTick",
       "type": "procedure",
       "sortid": 90,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "aerober_tool_in_hand_tick",
       "metadata": {
@@ -1352,7 +1352,7 @@
       "name": "AeroberArmorHelmetTickEvent",
       "type": "procedure",
       "sortid": 91,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "aerober_armor_helmet_tick_event",
       "metadata": {
@@ -1372,7 +1372,7 @@
       "name": "AeroberSwordLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 92,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "aerober_sword_living_entity_is_hit_with_tool",
       "metadata": {
@@ -1392,7 +1392,7 @@
       "name": "DenseChunk",
       "type": "item",
       "sortid": 93,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dense_chunk",
       "metadata": {
@@ -1421,7 +1421,7 @@
       "name": "DenseArmorHelmetTickEvent",
       "type": "procedure",
       "sortid": 95,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dense_armor_helmet_tick_event",
       "metadata": {
@@ -1441,7 +1441,7 @@
       "name": "DensePickaxeBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 96,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dense_pickaxe_block_destroyed_with_tool",
       "metadata": {
@@ -1477,7 +1477,7 @@
       "name": "DenseShovelBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 97,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "dense_shovel_block_destroyed_with_tool",
       "metadata": {
@@ -1508,42 +1508,6 @@
         ]
       },
       "path": "~/Dense Rock"
-    },
-    {
-      "name": "TestBlock1",
-      "type": "block",
-      "sortid": 98,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "test_block_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/duality/block/TestBlock1Block.java",
-          "src/main/resources/assets/duality/models/item/test_block_1.json",
-          "src/main/resources/assets/duality/blockstates/test_block_1.json",
-          "src/main/resources/assets/duality/models/block/test_block_1.json",
-          "src/main/resources/data/duality/loot_tables/blocks/test_block_1.json"
-        ]
-      },
-      "path": "~/Void Fruit Ore"
-    },
-    {
-      "name": "Testies",
-      "type": "block",
-      "sortid": 98,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "testies",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/duality/loot_tables/blocks/testies.json",
-          "src/main/resources/assets/duality/models/item/testies.json",
-          "src/main/resources/assets/duality/blockstates/testies.json",
-          "src/main/resources/assets/duality/models/block/testies.json",
-          "src/main/java/net/mcreator/duality/block/TestiesBlock.java"
-        ]
-      },
-      "path": "~/Molten"
     }
   ],
   "variable_elements": [],
@@ -1575,31 +1539,57 @@
   },
   "language_map": {
     "en_us": {
-      "item.duality.dense_pickaxe": "Dense Pickaxe",
-      "item.duality.dense_armor_chestplate": "Dense Chestplate",
-      "item.duality.raw_aerober": "Raw Aerober",
-      "item.duality.dense_ingot": "Dense",
-      "item.duality.aerober_hoe": "Aerober Hoe",
-      "item.duality.aerober_armor_chestplate": "Aerober Chestplate",
-      "block.duality.dense_block": "Block of Dense",
+      "item.duality.void_ore_armor_boots": "VoidOre Boots",
+      "item.duality.molten_bars_armor_chestplate": "Molten_Bars Chestplate",
+      "item.duality.void_ore_axe": "VoidOre Axe",
+      "item.duality.molten_bars_armor_leggings": "Molten_Bars Leggings",
       "block.duality.dense_ore": "Dense Ore",
+      "block.duality.dense_block": "Block of Dense",
+      "item.duality.molten_ore_chunk": "Molten Ore Chunk",
+      "item.duality.molten_bars_shovel": "Molten_Bars Shovel",
       "block.duality.aerober_ore": "Aerober Ore",
-      "block.duality.aerober_block": "Block of Aerober",
+      "item.duality.void_ore": "VoidOre",
+      "block.duality.molten_bars_ore": "Molten_Bars Ore",
+      "item.duality.molten_bars_ingot": "Molten_Bars",
+      "item.duality.void_ore_armor_chestplate": "VoidOre Chestplate",
+      "item.duality.void_ore_armor_leggings": "VoidOre Leggings",
+      "item.duality.molten_bars_axe": "Molten_Bars Axe",
+      "item.duality.void_ore_sword": "VoidOre Sword",
       "item.duality.aerober_armor_boots": "Aerober Boots",
       "item.duality.aerober_sword": "Aerober Sword",
-      "item.duality.aerober_pickaxe": "Aerober Pickaxe",
-      "item.duality.dense_axe": "Dense Axe",
       "item.duality.dense_sword": "Dense Sword",
       "item.duality.dense_armor_leggings": "Dense Leggings",
+      "block.duality.molten_bars_block": "Block of Molten_Bars",
+      "item.duality.molten_bars_armor_helmet": "Molten_Bars Helmet",
+      "item.duality.aerober_shovel": "Aerober Shovel",
+      "item.duality.molten_bars_armor_boots": "Molten_Bars Boots",
+      "item.duality.dense_chunk": "Dense Chunk",
+      "item.duality.dense_hoe": "Dense Hoe",
+      "item.duality.dense_armor_boots": "Dense Boots",
+      "item.duality.void_ore_shovel": "VoidOre Shovel",
+      "item.duality.dense_armor_chestplate": "Dense Chestplate",
+      "item.duality.dense_pickaxe": "Dense Pickaxe",
+      "item.duality.raw_aerober": "Raw Aerober",
+      "item.duality.dense_ingot": "Dense",
+      "item.duality.molten_bars_sword": "Molten_Bars Sword",
+      "item.duality.aerober_hoe": "Aerober Hoe",
+      "item.duality.aerober_armor_chestplate": "Aerober Chestplate",
+      "item.duality.molten_bars_hoe": "Molten_Bars Hoe",
+      "block.duality.void_ore_ore": "VoidOre Ore",
+      "item.duality.void_ore_armor_helmet": "VoidOre Helmet",
+      "item.duality.void_ore_hoe": "VoidOre Hoe",
+      "item.duality.molten_bars_pickaxe": "Molten_Bars Pickaxe",
+      "item.duality.void_ore_pickaxe": "VoidOre Pickaxe",
+      "block.duality.aerober_block": "Block of Aerober",
+      "item.duality.aerober_pickaxe": "Aerober Pickaxe",
+      "item.duality.dense_axe": "Dense Axe",
       "item.duality.aerober_armor_leggings": "Aerober Leggings",
       "item.duality.dense_armor_helmet": "Dense Helmet",
       "item.duality.aerober_armor_helmet": "Aerober Helmet",
-      "item.duality.aerober_shovel": "Aerober Shovel",
-      "item.duality.dense_hoe": "Dense Hoe",
+      "block.duality.void_ore_block": "Block of VoidOre",
       "item.duality.aerober_axe": "Aerober Axe",
       "item.duality.dense_shovel": "Dense Shovel",
-      "item.duality.aerober_ingot": "Aerober",
-      "item.duality.dense_armor_boots": "Dense Boots"
+      "item.duality.aerober_ingot": "Aerober"
     }
   },
   "foldersRoot": {
