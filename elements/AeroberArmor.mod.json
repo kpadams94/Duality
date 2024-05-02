@@ -10,6 +10,9 @@
     "textureLeggings": "aerober_leggings",
     "enableBoots": true,
     "textureBoots": "aerober_boots",
+    "onHelmetTick": {
+      "name": "AeroberArmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

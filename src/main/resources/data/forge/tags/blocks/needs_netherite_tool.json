@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "duality:molten_bars_ore",
     "duality:aerober_block"
   ]
 }

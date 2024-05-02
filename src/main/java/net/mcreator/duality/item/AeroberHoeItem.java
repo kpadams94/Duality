@@ -1,12 +1,15 @@
 
 package net.mcreator.duality.item;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
+import net.minecraft.world.entity.Entity;
 
+import net.mcreator.duality.procedures.AeroberPickaxeToolInHandTickProcedure;
 import net.mcreator.duality.init.DualityModItems;
 
 public class AeroberHoeItem extends HoeItem {
@@ -36,5 +39,12 @@ public class AeroberHoeItem extends HoeItem {
 				return Ingredient.of(new ItemStack(DualityModItems.AEROBER_INGOT.get()));
 			}
 		}, 0, -2f, new Item.Properties());
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			AeroberPickaxeToolInHandTickProcedure.execute(entity);
 	}
 }

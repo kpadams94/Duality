@@ -1,23 +1,28 @@
 
 package net.mcreator.duality.item;
 
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.core.BlockPos;
 
+import net.mcreator.duality.procedures.DensePickaxeBlockDestroyedWithToolProcedure;
 import net.mcreator.duality.init.DualityModItems;
 
 public class DensePickaxeItem extends PickaxeItem {
 	public DensePickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 323;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -25,7 +30,7 @@ public class DensePickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
@@ -35,6 +40,13 @@ public class DensePickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(DualityModItems.DENSE_INGOT.get()));
 			}
-		}, 1, 0f, new Item.Properties());
+		}, 1, -2.4f, new Item.Properties());
+	}
+
+	@Override
+	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
+		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
+		DensePickaxeBlockDestroyedWithToolProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		return retval;
 	}
 }

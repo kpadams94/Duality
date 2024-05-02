@@ -15,12 +15,12 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "harvestLevel": 2,
-    "efficiency": 7.0,
-    "attackSpeed": 4.0,
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.6,
     "enchantability": 17,
-    "damageVsEntity": 5.0,
-    "usageCount": 323,
+    "damageVsEntity": 10.0,
+    "usageCount": 2500,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false

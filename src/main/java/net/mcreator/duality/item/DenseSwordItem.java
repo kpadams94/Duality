@@ -13,19 +13,19 @@ public class DenseSwordItem extends SwordItem {
 	public DenseSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 323;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 6f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
@@ -35,6 +35,6 @@ public class DenseSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(DualityModItems.DENSE_INGOT.get()));
 			}
-		}, 3, 0f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 }
