@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "duality:block/test_block_1"
+    }
+  }
+}

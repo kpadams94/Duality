@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "duality:void_ore_block",
+    "duality:dense_ore",
     "duality:aerober_ore"
   ]
 }
