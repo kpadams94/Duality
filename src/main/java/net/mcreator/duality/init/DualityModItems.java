@@ -98,6 +98,7 @@ public class DualityModItems {
 	public static final RegistryObject<Item> VOID_ORE_ARMOR_LEGGINGS = REGISTRY.register("void_ore_armor_leggings", () -> new VoidOreArmorItem.Leggings());
 	public static final RegistryObject<Item> VOID_ORE_ARMOR_BOOTS = REGISTRY.register("void_ore_armor_boots", () -> new VoidOreArmorItem.Boots());
 	public static final RegistryObject<Item> DENSE_CHUNK = REGISTRY.register("dense_chunk", () -> new DenseChunkItem());
+	public static final RegistryObject<Item> TEST = block(DualityModBlocks.TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items
