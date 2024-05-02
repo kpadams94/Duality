@@ -12,13 +12,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.duality.item.VoidOreSwordItem;
-import net.mcreator.duality.item.VoidOreShovelItem;
-import net.mcreator.duality.item.VoidOrePickaxeItem;
-import net.mcreator.duality.item.VoidOreItem;
-import net.mcreator.duality.item.VoidOreHoeItem;
-import net.mcreator.duality.item.VoidOreAxeItem;
-import net.mcreator.duality.item.VoidOreArmorItem;
 import net.mcreator.duality.item.RawAeroberItem;
 import net.mcreator.duality.item.Molten_BarsSwordItem;
 import net.mcreator.duality.item.Molten_BarsShovelItem;
@@ -85,20 +78,7 @@ public class DualityModItems {
 	public static final RegistryObject<Item> MOLTEN_BARS_ARMOR_LEGGINGS = REGISTRY.register("molten_bars_armor_leggings", () -> new Molten_BarsArmorItem.Leggings());
 	public static final RegistryObject<Item> MOLTEN_BARS_ARMOR_BOOTS = REGISTRY.register("molten_bars_armor_boots", () -> new Molten_BarsArmorItem.Boots());
 	public static final RegistryObject<Item> MOLTEN_ORE_CHUNK = REGISTRY.register("molten_ore_chunk", () -> new MoltenOreChunkItem());
-	public static final RegistryObject<Item> VOID_ORE = REGISTRY.register("void_ore", () -> new VoidOreItem());
-	public static final RegistryObject<Item> VOID_ORE_ORE = block(DualityModBlocks.VOID_ORE_ORE);
-	public static final RegistryObject<Item> VOID_ORE_BLOCK = block(DualityModBlocks.VOID_ORE_BLOCK);
-	public static final RegistryObject<Item> VOID_ORE_PICKAXE = REGISTRY.register("void_ore_pickaxe", () -> new VoidOrePickaxeItem());
-	public static final RegistryObject<Item> VOID_ORE_AXE = REGISTRY.register("void_ore_axe", () -> new VoidOreAxeItem());
-	public static final RegistryObject<Item> VOID_ORE_SWORD = REGISTRY.register("void_ore_sword", () -> new VoidOreSwordItem());
-	public static final RegistryObject<Item> VOID_ORE_SHOVEL = REGISTRY.register("void_ore_shovel", () -> new VoidOreShovelItem());
-	public static final RegistryObject<Item> VOID_ORE_HOE = REGISTRY.register("void_ore_hoe", () -> new VoidOreHoeItem());
-	public static final RegistryObject<Item> VOID_ORE_ARMOR_HELMET = REGISTRY.register("void_ore_armor_helmet", () -> new VoidOreArmorItem.Helmet());
-	public static final RegistryObject<Item> VOID_ORE_ARMOR_CHESTPLATE = REGISTRY.register("void_ore_armor_chestplate", () -> new VoidOreArmorItem.Chestplate());
-	public static final RegistryObject<Item> VOID_ORE_ARMOR_LEGGINGS = REGISTRY.register("void_ore_armor_leggings", () -> new VoidOreArmorItem.Leggings());
-	public static final RegistryObject<Item> VOID_ORE_ARMOR_BOOTS = REGISTRY.register("void_ore_armor_boots", () -> new VoidOreArmorItem.Boots());
 	public static final RegistryObject<Item> DENSE_CHUNK = REGISTRY.register("dense_chunk", () -> new DenseChunkItem());
-	public static final RegistryObject<Item> TEST = block(DualityModBlocks.TEST);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "duality:block/voidore_ore",
-    "particle": "duality:block/voidore_ore"
-  },
-  "render_type": "solid"
-}
