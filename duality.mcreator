@@ -1508,6 +1508,24 @@
         ]
       },
       "path": "~/Molten/Recipes"
+    },
+    {
+      "name": "Testies",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/duality/loot_tables/blocks/testies.json",
+          "src/main/resources/assets/duality/models/block/testies.json",
+          "src/main/resources/assets/duality/models/item/testies.json",
+          "src/main/resources/assets/duality/blockstates/testies.json",
+          "src/main/java/net/mcreator/duality/block/TestiesBlock.java"
+        ]
+      },
+      "path": "~/Molten"
     }
   ],
   "variable_elements": [],
@@ -1539,31 +1557,32 @@
   },
   "language_map": {
     "en_us": {
-      "block.duality.dense_block": "Block of Dense",
-      "block.duality.dense_ore": "Dense Ore",
-      "block.duality.aerober_ore": "Aerober Ore",
-      "item.duality.aerober_armor_boots": "Aerober Boots",
-      "item.duality.aerober_sword": "Aerober Sword",
-      "item.duality.dense_sword": "Dense Sword",
-      "item.duality.dense_armor_leggings": "Dense Leggings",
-      "item.duality.aerober_shovel": "Aerober Shovel",
-      "item.duality.dense_hoe": "Dense Hoe",
-      "item.duality.dense_armor_boots": "Dense Boots",
-      "item.duality.dense_armor_chestplate": "Dense Chestplate",
       "item.duality.dense_pickaxe": "Dense Pickaxe",
+      "item.duality.dense_armor_chestplate": "Dense Chestplate",
       "item.duality.dense_ingot": "Dense",
       "item.duality.raw_aerober": "Raw Aerober",
       "item.duality.aerober_hoe": "Aerober Hoe",
       "item.duality.aerober_armor_chestplate": "Aerober Chestplate",
+      "block.duality.dense_ore": "Dense Ore",
+      "block.duality.dense_block": "Block of Dense",
+      "block.duality.aerober_ore": "Aerober Ore",
       "block.duality.aerober_block": "Block of Aerober",
+      "item.duality.aerober_armor_boots": "Aerober Boots",
+      "item.duality.aerober_sword": "Aerober Sword",
       "item.duality.aerober_pickaxe": "Aerober Pickaxe",
       "item.duality.dense_axe": "Dense Axe",
+      "item.duality.dense_sword": "Dense Sword",
+      "item.duality.dense_armor_leggings": "Dense Leggings",
       "item.duality.aerober_armor_leggings": "Aerober Leggings",
       "item.duality.dense_armor_helmet": "Dense Helmet",
+      "block.duality.testies": "Testies",
       "item.duality.aerober_armor_helmet": "Aerober Helmet",
+      "item.duality.aerober_shovel": "Aerober Shovel",
+      "item.duality.dense_hoe": "Dense Hoe",
       "item.duality.aerober_axe": "Aerober Axe",
       "item.duality.dense_shovel": "Dense Shovel",
-      "item.duality.aerober_ingot": "Aerober"
+      "item.duality.aerober_ingot": "Aerober",
+      "item.duality.dense_armor_boots": "Dense Boots"
     }
   },
   "foldersRoot": {

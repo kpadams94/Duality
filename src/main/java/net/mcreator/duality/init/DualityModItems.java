@@ -98,6 +98,7 @@ public class DualityModItems {
 	public static final RegistryObject<Item> MOLTEN_BARS_ORE = block(DualityModBlocks.MOLTEN_BARS_ORE);
 	public static final RegistryObject<Item> MOLTEN_BARS_INGOT = REGISTRY.register("molten_bars_ingot", () -> new Molten_BarsIngotItem());
 	public static final RegistryObject<Item> VOID_ORE_BLOCK = block(DualityModBlocks.VOID_ORE_BLOCK);
+	public static final RegistryObject<Item> TESTIES = block(DualityModBlocks.TESTIES);
 
 	// Start of user code block custom items
 	// End of user code block custom items
