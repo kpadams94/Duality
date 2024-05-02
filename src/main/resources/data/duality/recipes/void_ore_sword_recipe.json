@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "duality:void_ore"
+      "item": "duality:deleted_mod_element"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "duality:void_ore_sword",
+    "item": "duality:deleted_mod_element",
     "count": 1
   }
 }

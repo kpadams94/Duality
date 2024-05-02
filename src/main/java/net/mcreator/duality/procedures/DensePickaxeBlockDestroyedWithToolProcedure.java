@@ -1,12 +1,6 @@
 package net.mcreator.duality.procedures;
 
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
+import net.minecraftforge.eventbus.api.Event;
 
 public class DensePickaxeBlockDestroyedWithToolProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

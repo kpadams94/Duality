@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "duality:void_ore"
+      "item": "duality:deleted_mod_element"
     }
   },
   "result": {
-    "item": "duality:void_ore_block",
+    "item": "duality:deleted_mod_element",
     "count": 1
   }
 }

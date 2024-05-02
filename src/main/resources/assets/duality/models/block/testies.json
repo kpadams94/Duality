@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "duality:block/testie",
+    "up": "duality:block/testie",
+    "north": "duality:block/testie",
+    "east": "duality:block/testie",
+    "south": "duality:block/testie",
+    "west": "duality:block/testie",
+    "particle": "duality:block/testie"
+  },
+  "render_type": "solid"
+}

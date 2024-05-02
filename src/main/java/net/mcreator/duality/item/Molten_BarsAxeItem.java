@@ -1,13 +1,7 @@
 
 package net.mcreator.duality.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
-
-import net.mcreator.duality.init.DualityModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class Molten_BarsAxeItem extends AxeItem {
 	public Molten_BarsAxeItem() {
@@ -33,7 +27,7 @@ public class Molten_BarsAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DualityModItems.MOLTEN_BARS_INGOT.get()));
+				return Ingredient.of(new ItemStack(DualityModItems.DELETED_MOD_ELEMENT.get()));
 			}
 		}, 1, 0f, new Item.Properties());
 	}

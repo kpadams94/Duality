@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "duality:molten_bars_ingot"
+      "item": "duality:deleted_mod_element"
     }
   },
   "result": {
-    "item": "duality:molten_bars_armor_boots",
+    "item": "duality:deleted_mod_element_boots",
     "count": 1
   }
 }

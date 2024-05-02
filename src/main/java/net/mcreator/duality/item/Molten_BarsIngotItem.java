@@ -1,8 +1,7 @@
 
 package net.mcreator.duality.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class Molten_BarsIngotItem extends Item {
 	public Molten_BarsIngotItem() {

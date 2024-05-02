@@ -1,13 +1,7 @@
 
 package net.mcreator.duality.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.duality.init.DualityModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class VoidOreShovelItem extends ShovelItem {
 	public VoidOreShovelItem() {
@@ -33,7 +27,7 @@ public class VoidOreShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DualityModItems.VOID_ORE.get()));
+				return Ingredient.of(new ItemStack(DualityModItems.DELETED_MOD_ELEMENT.get()));
 			}
 		}, 1, 1f, new Item.Properties());
 	}
