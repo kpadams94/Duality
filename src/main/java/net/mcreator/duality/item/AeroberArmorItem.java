@@ -28,7 +28,7 @@ public abstract class AeroberArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{4, 10, 12, 4}[type.getSlot().getIndex()];
+				return new int[]{2, 6, 8, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override
